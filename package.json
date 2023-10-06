@@ -1,0 +1,29 @@
+{
+  "name": "nextjs_tailwind_boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "main": "page.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node page.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "1.6.0",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "express": "^4.18.2",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "1.67.0",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^3.3.3"
+  }
+}
